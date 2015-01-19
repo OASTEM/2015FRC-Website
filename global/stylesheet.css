@@ -1,33 +1,40 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
 /* Main elements */
+div{
+
+}
 body{
 	font-family: 'Noto Sans', sans-serif;
 	background-color: #ECECEC;
 }
 
-a{ /* Overrides the underlined purple decoration when clicked on */
+a{	/* Overrides the underlined purple decoration when clicked on */
 	color: #4B77BE;
 	text-decoration: none;
 }
 
+p{	/* Justified text masterrace */
+	text-align: justify;
+}
+
 /* Team */ 
-#person img{ /* Profile picture */
+#person img{	/* Profile picture */
 	float: left;
 	float: left;
 	height: 205px;
 	width: 198px;
 }
 
-#person h2{ /* Title */
+#person h2{	/* Title */
 	
 }
 
-#person h3{ /* Name */
+#person h3{	/* Name */
 
 }
 
-#person p{ /* Information entry */
+#person p{	/* Information entry */
 
 }
 
@@ -62,7 +69,7 @@ nav li{
 	display: inline;
 }
 
-nav li a{
+nav a li{
 	color: #F2F1EF;
 }
 
