@@ -18,7 +18,6 @@ nav{
 	background-color: #3FC380;
 	text-align: center;
 }
-
 nav li:hover{
 	background-color: #298054;
 }
@@ -30,6 +29,7 @@ nav li{
 nav li a{
 	color: #F2F1EF;
 }
+
 
 #selectedTab{
 	background-color: #298054;
