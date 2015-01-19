@@ -1,33 +1,64 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
+/* Main elements */
 body{
 	font-family: 'Noto Sans', sans-serif;
 	background-color: #ECECEC;
 }
 
-a{
+a{ /* Overrides the underlined purple decoration when clicked on */
 	color: #4B77BE;
 	text-decoration: none;
 }
 
-.sponsor{
-	color: #6C7A89;
-	/*text-align: center;*/
+/* Team */ 
+#person img{ /* Profile picture */
+	float: left;
+	float: left;
+	height: 205px;
+	width: 198px;
 }
 
+#person h2{ /* Title */
+	
+}
+
+#person h3{ /* Name */
+
+}
+
+#person p{ /* Information entry */
+
+}
+
+/* Sponsors */
+.sponsor{
+	color: #6C7A89;
+	text-align: center;
+}
+
+/* Tabs at the top */
 nav{
 	text-align: center;
 }
 
 #navigationTabs{
+	padding: .75%;
 	background-color: #3FC380;
 	text-align: center;
 }
+
+#selectedTab{
+	background-color: #298054;
+}
+
 nav li:hover{
 	background-color: #298054;
 }
 
 nav li{
+	font-size: 150%;
+	padding: .75%;
 	display: inline;
 }
 
@@ -37,25 +68,4 @@ nav li a{
 
 ul{
 	list-style-type: none;
-}
-
-#selectedTab{
-	background-color: #298054;
-}
-
-#person img{
-	height: 205px;
-	width: 198px;
-}
-
-#person h2{
-	
-}
-
-#person h3{
-
-}
-
-#person p{
-
 }
