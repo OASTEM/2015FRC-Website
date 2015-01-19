@@ -18,6 +18,11 @@ p{	/* Justified text masterrace */
 	text-align: justify;
 }
 
+footer{
+	font-size: 13px;
+	text-align: center;
+}
+
 /* Team */ 
 #person img{	/* Profile picture */
 	float: left;
@@ -51,16 +56,16 @@ nav{
 
 #navigationTabs{
 	padding: .75%;
-	background-color: #3FC380;
+	background-color: #26A65B;
 	text-align: center;
 }
 
 #selectedTab{
-	background-color: #298054;
+	background-color: #1a733f;
 }
 
 nav li:hover{
-	background-color: #298054;
+	background-color: #1a733f;
 }
 
 nav li{
