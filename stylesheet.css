@@ -1,11 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
 body{
-	font-family: 'Arimo', sans-serif;
-	background-color: #FFE6B3
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #ECECEC;
 }
 
 a{
+	color: #4B77BE;
 	text-decoration: none;
 }
 
@@ -14,20 +15,24 @@ nav{
 }
 
 #navigationTabs{
-	background-color: #913D88;
+	background-color: #3FC380;
 	text-align: center;
 }
 
 nav li:hover{
-	background-color: #663399;
+	background-color: #298054;
 }
 
 nav li{
 	display: inline;
 }
 
+nav li a{
+	color: #F2F1EF;
+}
+
 #selectedTab{
-	background-color: #663399;
+	background-color: #298054;
 }
 
 #person img{
