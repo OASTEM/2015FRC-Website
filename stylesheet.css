@@ -10,6 +10,11 @@ a{
 	text-decoration: none;
 }
 
+.sponsor{
+	color: #6C7A89;
+	/*text-align: center;*/
+}
+
 nav{
 	text-align: center;
 }
@@ -30,6 +35,9 @@ nav li a{
 	color: #F2F1EF;
 }
 
+ul{
+	list-style-type: none;
+}
 
 #selectedTab{
 	background-color: #298054;
