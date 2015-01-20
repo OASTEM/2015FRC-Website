@@ -1,10 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 
 /* Main elements */
-div{
-
+header{
+	margin-top: 1.25em;
 }
+
+div{
+	color: #334;
+}
+
 body{
+	margin-top: 0em;
 	font-family: 'Noto Sans', sans-serif;
 	background-color: #ECECEC;
 }
@@ -19,6 +25,7 @@ p{	/* Justified text masterrace */
 }
 
 footer{
+	clear: both;
 	font-size: 13px;
 	text-align: center;
 }
@@ -56,16 +63,18 @@ nav{
 
 #navigationTabs{
 	padding: .75%;
-	background-color: #26A65B;
+	margin: 0px;
+	/**background-color: #26A65B;*/
 	text-align: center;
 }
 
 #selectedTab{
-	background-color: #1a733f;
+	/*background-color: #1a733f;*/
 }
 
 nav li:hover{
-	background-color: #1a733f;
+	color: #26A65B;
+	/*background-color: #1a733f;*/
 }
 
 nav li{
@@ -75,7 +84,7 @@ nav li{
 }
 
 nav a li{
-	color: #F2F1EF;
+	color: #444;
 }
 
 ul{
