@@ -25,7 +25,6 @@ p{	/* Justified text masterrace */
 }
 
 footer{
-	clear: both;
 	font-size: 13px;
 	text-align: center;
 }
@@ -53,7 +52,6 @@ footer{
 /* Sponsors */
 .sponsor{
 	color: #6C7A89;
-	text-align: center;
 }
 
 /* Tabs at the top */
@@ -64,12 +62,12 @@ nav{
 #navigationTabs{
 	padding: .75%;
 	margin: 0px;
-	/**background-color: #26A65B;*/
 	text-align: center;
+	/**background-color: #26A65B;*/
 }
 
 #selectedTab{
-	/*background-color: #1a733f;*/
+	color: #26A65B;
 }
 
 nav li:hover{
