@@ -1,4 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+.center{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centText{
+	text-align: center;
+}
 
 /* Main elements */
 header{
@@ -10,7 +19,7 @@ div{
 }
 
 body{
-	margin-top: 0em;
+	margin: 10px 0 0;
 	font-family: 'Noto Sans', sans-serif;
 	background-color: #ECECEC;
 }
@@ -21,12 +30,54 @@ a{	/* Overrides the underlined purple decoration when clicked on */
 }
 
 p{	/* Justified text masterrace */
+	margin: 0.4em 0 0;
 	text-align: justify;
 }
 
+/* Footer */
 footer{
-	font-size: 13px;
+	/* Background */
+	width: 100%;
+	position: fixed; /* Want to change this for actual force to bottom code */
+	bottom: 0px;
+	padding: .5em 0 3em;
+	background-color: #222;
+	/* Text */
+	font-size: 0.85em;
+	color: #ddd;
+}
+
+footer strong{
+	font-size: 1.25em;
+}
+
+footer ul{
+	margin: 0 auto;
 	text-align: center;
+}
+
+footer li{
+	margin: 1em 1.5em;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+footer ul a{
+	color: #6BB9F0;
+	text-decoration: underline;
+}
+
+footer div img{ /* For social media images */
+	height: 2em;
+}
+
+#oastem{
+	padding-top: 2em;
+}
+
+#instagram{
+	padding: 0 .75em;
 }
 
 /* Team */ 
