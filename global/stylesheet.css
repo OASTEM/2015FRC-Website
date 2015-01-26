@@ -1,13 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
-.center{
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.centText{
-	text-align: center;
-}
 
 /* Main elements */
 header{
@@ -30,17 +21,65 @@ a{	/* Overrides the underlined purple decoration when clicked on */
 }
 
 p{	/* Justified text masterrace */
-	margin: 0.4em 0 0;
+	width: 50%;
+	margin: 0.4em auto;
 	text-align: justify;
+}
+
+h1{
+	text-align: center;
+}
+.center{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centText{
+	text-align: center;
+}
+
+/* Tabs at the top */
+nav{
+	text-align: center;
+}
+
+nav img{
+	margin-left: 25%;
+	width: 10em;
+	float: left;
+}
+
+#navigationTabs{
+	padding: .75%;
+	text-align: center;
+}
+
+#selectedTab{
+	color: #26A65B;
+}
+
+nav li:hover{
+	color: #26A65B;
+}
+
+nav li{
+	font-size: 150%;
+	padding: .75%;
+	display: inline;
+}
+
+nav a li{
+	color: #444;
 }
 
 /* Footer */
 footer{
 	/* Background */
 	width: 100%;
-	position: fixed; /* Want to change this for actual force to bottom code */
+	position: fixed;
 	bottom: 0px;
-	padding: .5em 0 3em;
+	padding: .5em 0;
 	background-color: #222;
 	/* Text */
 	font-size: 0.85em;
@@ -49,6 +88,10 @@ footer{
 
 footer strong{
 	font-size: 1.25em;
+}
+
+footer p{
+	width: 100%;
 }
 
 footer ul{
@@ -72,70 +115,56 @@ footer div img{ /* For social media images */
 	height: 2em;
 }
 
-#oastem{
+#oastem{ /* Vertically centers the STEM logo within the li block*/
 	padding-top: 2em;
 }
 
-#instagram{
+#instagram{ /* Adds padding to left/right of middle logo so there is none on the FB/GH logos*/
 	padding: 0 .75em;
+}
+
+/*------------------------------------ Individual pages ------------------------------------*/
+/*------------------------------------ Individual pages ------------------------------------*/
+/*------------------------------------ Individual pages ------------------------------------*/
+
+/* Main */ 
+#jumbotron{ /* Still need to format this as responsive to varying res */
+	margin-bottom: 2em;
 }
 
 /* Team */ 
 #person img{	/* Profile picture */
-	float: left;
+	margin-left: 25%;
 	float: left;
 	height: 205px;
 	width: 198px;
 }
 
 #person h2{	/* Title */
-	
+	margin-left: 25%;
 }
 
 #person h3{	/* Name */
-
+	margin-left: 25%;
 }
 
 #person p{	/* Information entry */
-
+	
 }
 
 /* Sponsors */
-.sponsor{
-	color: #6C7A89;
+ul.sponsor li{
+	width: 20em;
+	display: inline-block;
+	margin: 10px;
+	padding-bottom: 2em;
 }
 
-/* Tabs at the top */
-nav{
-	text-align: center;
+.sponsor img{
+	width: 15em;
 }
 
-#navigationTabs{
-	padding: .75%;
-	margin: 0px;
-	text-align: center;
-	/**background-color: #26A65B;*/
-}
-
-#selectedTab{
-	color: #26A65B;
-}
-
-nav li:hover{
-	color: #26A65B;
-	/*background-color: #1a733f;*/
-}
-
-nav li{
-	font-size: 150%;
-	padding: .75%;
-	display: inline;
-}
-
-nav a li{
-	color: #444;
-}
-
-ul{
-	list-style-type: none;
+.sponsor h2{
+	font-size: 2em;
+	margin: 0;
 }
