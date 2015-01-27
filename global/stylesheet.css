@@ -136,9 +136,18 @@ footer div img{ /* For social media images */
 /* Individual pages */
 /* Individual pages */
 
-/* Main */ 
+/* Main */
+
 #jumbotron{ /* Still need to format this as responsive to varying res */
-	margin-bottom: 2em;
+	width: 100%;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+#jumbotron img{
+    left: 50%;
+    margin-left: -960px;
+    position: relative;
 }
 
 /* Team */ 
