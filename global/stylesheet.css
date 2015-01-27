@@ -37,7 +37,7 @@ h1{
     margin-right: auto;
 }
 .center{
-	width: 80%;
+    width: 75%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -103,6 +103,7 @@ footer p{
 }
 
 footer ul{
+    padding: 0;
 	margin: 0 auto;
 	text-align: center;
 }
