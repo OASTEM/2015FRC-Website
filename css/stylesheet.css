@@ -153,7 +153,7 @@ footer div img{ /* For social media images */
 #person img{	/* Profile picture */
     float: left;
     margin-right: 1em;
-    width: 13em
+    width: 13em;
 }
 
 #person h2{	/* Title */
