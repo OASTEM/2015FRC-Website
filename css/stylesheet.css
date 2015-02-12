@@ -5,10 +5,6 @@ header{
 	margin-top: 1.25em;
 }
 
-div{
-	color: #334;
-}
-
 body{
 	margin: 10px 0 0;
 	font-family: 'Noto Sans', sans-serif;
@@ -150,6 +146,19 @@ footer div img{ /* For social media images */
 }
 
 /* Team */ 
+#students{
+    
+}
+
+#mentors{
+    
+}
+
+#person{
+    list-style-type: none;
+    padding: 0;
+}
+
 #person img{	/* Profile picture */
     float: left;
     margin-right: 1em;
