@@ -34,6 +34,7 @@ h1{
     margin-bottom: 2em;
 }
 .center{
+    padding: 0;
     width: 75%;
 	margin-left: auto;
 	margin-right: auto;
@@ -182,13 +183,19 @@ footer div img{ /* For social media images */
 /* Sponsors */
 ul.sponsor li{
 	width: 20em;
-	display: inline-block;
+	display: block;
 	margin: 10px;
 	padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sponsor img{
 	width: 15em;
+}
+
+.sponsor h1{
+    font-size: 1em;
 }
 
 .sponsor h2{
