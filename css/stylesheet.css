@@ -162,6 +162,7 @@ footer div img{ /* For social media images */
 
 #person img{	/* Profile picture */
     float: left;
+    clear: left;
     margin-right: 1em;
     width: 13em;
 }
@@ -179,6 +180,9 @@ footer div img{ /* For social media images */
 #person p{	/* Information entry */
 	margin: 0;
 }
+
+/* About */
+
 
 /* Sponsors */
 ul.sponsor li{
