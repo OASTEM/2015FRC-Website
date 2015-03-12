@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
-
 /* Main elements */
 header{
 	margin-top: 1.25em;
@@ -161,7 +160,10 @@ footer div img{ /* For social media images */
 }
 
 #person{
-    
+    padding: 0;
+}
+#person li{
+    height: 13em;
 }
 
 #person img{	/* Profile picture */
